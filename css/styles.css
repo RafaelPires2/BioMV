@@ -1,0 +1,92 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+    font-family: 'Libre Bodoni', serif;
+}
+
+
+.container{
+    background-image: url(./image/Rectangle1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    border: 2px solid rgb(236, 2, 2);
+    width: 100vw;
+    height: 100vh;
+    padding: 0px 100px;
+}
+
+/* Início do Header */
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1650px;
+    padding: 20px;
+    border: 1px white solid;
+}
+
+.menu-nav{
+    display: flex;
+    align-items: center;
+    border: 1px solid white;
+}
+.menu-nav ul{
+    display: flex;
+    border: 1px solid white;
+}
+#logo{
+    color:white;
+    font-size: 48px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+.menu-nav ul a{
+    margin:0px 20px;
+    color: white;
+    border: 1px solid white;
+}
+/* Final do Header */
+
+/* Inicio article-content */
+.article-content{
+    display: flex;
+    flex-direction: column;
+    margin-left: 240px;
+    width: 483px;
+    height: 500px;
+    border: 1px solid white;
+}
+#title{
+    color:white;
+    font-size: 144px;
+    line-height: 0.9;
+}
+.sub-title{
+    color:white;
+    font-size: 16px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+#btnConsulte{
+    width: 130px;
+    height: 37px;
+    background: #FF4A11;
+    color: white;
+}
+/* Final article-content */
+
+/* Inicio section-bottom */
+.section-bottom{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    border: 1px solid white;
+}
+
+
+
+/* Final section-bottom */
