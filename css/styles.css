@@ -26,17 +26,14 @@
     align-items: center;
     width: 1650px;
     padding: 20px;
-    border: 1px white solid;
 }
 
 .menu-nav{
     display: flex;
     align-items: center;
-    border: 1px solid white;
 }
 .menu-nav ul{
     display: flex;
-    border: 1px solid white;
 }
 #logo{
     color:white;
@@ -47,7 +44,6 @@
 .menu-nav ul a{
     margin:0px 20px;
     color: white;
-    border: 1px solid white;
 }
 /* Final do Header */
 
@@ -58,7 +54,6 @@
     margin-left: 240px;
     width: 483px;
     height: 500px;
-    border: 1px solid white;
 }
 #title{
     color:white;
@@ -83,8 +78,37 @@
 .section-bottom{
     display: flex;
     align-items: center;
+    justify-content: center;
+    width: 1650px;
     flex-direction: row;
-    border: 1px solid white;
+    border: 5px solid rgb(14, 185, 142);       
+}
+.box-bottom1{
+    width: 183px;
+    height: 183px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+.box-bottom2, .box-bottom3, .box-bottom4, .box-bottom5{
+    width: 292px;
+    height: 183px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.box-item1, .box-item3, .box-item5, .box-item7, .box-item9{
+    position: absolute;
+}
+
+.box-item2, .box-item4, .box-item6, .box-item8, .box-item10{
+    position: absolute;
+    z-index: 9999;
+    display: flex; 
+    
 }
 
 
