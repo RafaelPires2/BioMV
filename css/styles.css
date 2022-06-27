@@ -33,6 +33,7 @@
     align-items: center;
 }
 .menu-nav ul{
+    list-style: none;
     display: flex;
 }
 #logo{
@@ -42,8 +43,12 @@
     margin-right: 50px;
 }
 .menu-nav ul a{
+    text-decoration: none;
     margin:0px 20px;
     color: white;
+}
+.menu-nav ul a:hover{
+    color: #FF4A11;
 }
 /* Final do Header */
 
@@ -76,41 +81,59 @@
 
 /* Inicio section-bottom */
 .section-bottom{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 1650px;
-    flex-direction: row;
-    border: 5px solid rgb(14, 185, 142);       
+    margin-top: 110px;
+    width: 100vw;
+    height: 183px;
+    display: flex;  
 }
 .box-bottom1{
     width: 183px;
     height: 183px;
-    position: relative;
     display: flex;
     align-items: center;
-    text-align: center;
+    justify-content: center;
+    position: relative;
+    }
+   .box-item2{
+    position:absolute
 }
-.box-bottom2, .box-bottom3, .box-bottom4, .box-bottom5{
+
+.box-bottom2{
+    background-color: black;
     width: 292px;
     height: 183px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     position: relative;
+}
+.box-bottom3{
+    width: 276px;
+    height: 183px;
     display: flex;
     align-items: center;
     justify-content: center;
 }
-
-.box-item1, .box-item3, .box-item5, .box-item7, .box-item9{
-    position: absolute;
+.box-bottom4{
+    width: 108px;
+    height: 183px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
-
-.box-item2, .box-item4, .box-item6, .box-item8, .box-item10{
-    position: absolute;
-    z-index: 9999;
-    display: flex; 
-    
+.box-item3, .box-item5, .box-item7, .box-item9{
+    opacity: 0.3;
 }
-
+.box-item3:hover, .box-item5:hover, .box-item7:hover, .box-item9:hover{
+    opacity: 1;
+    transition: 0.5s;
+}
+.text-box{
+    font-size: 20px;
+    color: white;
+    position: absolute;
+    pointer-events:none;
+}
 
 
 /* Final section-bottom */
